@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: rgb(152, 198, 219);
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.cs-title{
+  text-align: center;
+  padding:20px;
+  background-color: rgb(36, 126, 0);
+  font-size: 20px;
+  color: white;
+}
+
+.cs-div{
+  margin:30px;
+  display:flex;
+  justify-content: center;
+  
+}
+.cs-heads{
+  padding: 30px 17px;
+  border: none;
+  background-color: blue;
+  border-radius: 100px;
+  margin-right: 40px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: 8px double white;
+}
+
+.cs-tails{
+  padding: 30px 23px;
+  border: none;
+  background-color: blue;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border: 8px double white;
+}
+
+.cs-heads:hover{
+  background-color: rgb(247, 18, 144);
+  color: white;
+}
+
+.cs-tails:hover{
+  background-color: rgb(247, 18, 144);
+  color: white;
+}
+
+.cs-result{
+  text-align: center;
+  font-size: 30px;
+  margin:30px;
+  font-weight: bolder;
+}
+
+.cs-pick{
+  text-align: center;
+  font-size: 20px;
+  margin:20px
+}
+.cs-score{
+  text-align: center;
+  font-size: 20px;
+  margin:20px
+}
+
+.cs-div-reset{
+  display: flex;
+  justify-content: center;
+  margin:20px
+}
+
+.cs-reset{
+  background-color: rgb(36, 126, 0);
+  color: white;
+  padding:10px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+}
